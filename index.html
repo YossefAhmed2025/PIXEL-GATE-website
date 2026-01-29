@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Pixel Gate - Strategic Media Solutions & World-Class Imaging. A World-Class Media House in the MENA region.">
+    <meta name="keywords"
+        content="media house, photography, video production, event management, media consultancy, MENA">
+    <title>Pixel Gate - Strategic Media Solutions & World-Class Imaging</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cairo:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="grid-overlay"></div>
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Navigation -->
+        <nav id="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="./Images/logo-icon.png" alt="Pixel Gate Logo" class="logo-img">
+                    <span class="logo-text">PIXEL GATE</span>
+                </div>
+
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                    <li><a href="#services" data-en="Services" data-ar="الخدمات">Services</a></li>
+                    <li><a href="#capabilities" data-en="Capabilities" data-ar="الإمكانيات">Capabilities</a></li>
+                    <li><a href="#portfolio" data-en="Portfolio" data-ar="أعمالنا">Portfolio</a></li>
+                    <li><a href="#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a></li>
+                </ul>
+
+                <!-- Language Toggle -->
+                <button class="lang-toggle" id="langToggle" title="Switch Language">
+                    <span class="lang-text">AR</span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-fullscreen visible">
+            <!-- Background Video with Gradient Overlay -->
+            <div class="hero-background">
+                <video autoplay muted loop playsinline class="hero-bg-image">
+                    <source src="./Images/hero-bg.mp4" type="video/mp4">
+                </video>
+                <div class="hero-gradient-overlay"></div>
+            </div>
+
+            <!-- Hero Content -->
+            <div class="hero-main-content">
+                <p class="hero-welcome" data-en="Welcome to" data-ar="مرحباً بك في">Welcome to</p>
+
+                <div class="hero-logo-large">
+                    <img src="./Images/logo.png" alt="Pixel Gate" class="hero-logo-img">
+                </div>
+
+                <p class="hero-tagline" data-en="YOUR GATEWAY TO A PIXEL PERFECT FUTURE"
+                    data-ar="بوابتك إلى مستقبل مثالي">YOUR <strong class="highlight-gate">GATE</strong>WAY TO A <strong
+                        class="highlight-pixel">PIXEL</strong>
+                    PERFECT FUTURE</p>
+
+                <div class="hero-typewriter">
+                    <span data-en="We offer " data-ar="نقدم ">We offer </span>
+                    <span class="typewriter-text" id="typewriter"></span>
+                    <span class="typewriter-cursor">|</span>
+                </div>
+
+                <div class="cta-buttons">
+                    <a href="#contact" class="cta-button" data-en="Keep in Touch" data-ar="تواصل معنا">Keep in Touch</a>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+        <!-- Mission Section with Dynamic Background -->
+        <section id="mission" class="mission-section">
+            <div class="mission-logo-bg"></div>
+            <div class="container">
+                <div class="mission-content">
+                    <p class="mission-text">
+                        <span class="mission-brand" data-en="PIXEL GATE" data-ar="PIXEL GATE">PIXEL GATE</span><span data-en=" is a specialized multimedia media consulting firm that elevates your media presence to stellar heights. We specialize in delivering full-spectrum media solutions." data-ar=" هي شركة استشارات إعلامية متخصصة تعمل على رفع مستوى وجودك الإعلامي إلى درجات عالية. نحن متخصصون في تقديم حلول إعلامية شاملة."> is a specialized multimedia media consulting firm that elevates your media presence to stellar heights. We specialize in delivering full-spectrum media solutions.</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="section-header">
+                <div class="section-label" data-en="What We Do" data-ar="ماذا نقدم">What We Do</div>
+                <h2 class="section-title" data-en="Our Services" data-ar="خدماتنا">Our Services</h2>
+                <p class="section-description" data-en="Premium media solutions across all platforms"
+                    data-ar="حلول إعلامية متميزة عبر جميع المنصات">Premium media solutions across all platforms</p>
+            </div>
+
+            <div class="services-masonry-grid">
+                <!-- Large Card - Photography -->
+                <div class="service-masonry-card card-large">
+                    <div class="service-masonry-image">
+                        <img src="./Images/photography-service.jpg" alt="Photography Services">
+                        <div class="service-masonry-gradient"></div>
+                    </div>
+                    <div class="service-masonry-content">
+                        <span class="service-badge" data-en="Premium" data-ar="مميز">Premium</span>
+                        <h3 data-en="World-Class Photography" data-ar="التصوير الاحترافي">World-Class Photography</h3>
+                        <p data-en="Commercial • Architectural • Corporate • Fashion • Food • Aerial"
+                            data-ar="تجاري • معماري • مؤسسي • أزياء • طعام • جوي">Commercial • Architectural • Corporate
+                            • Fashion • Food • Aerial</p>
+                        <div class="service-stats">
+                            <span><strong>500+</strong> <small data-en="Projects"
+                                    data-ar="مشروع">Projects</small></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Medium Card - Video Production -->
+                <div class="service-masonry-card card-medium">
+                    <div class="service-masonry-image">
+                        <img src="./Images/video-production.jpg" alt="Video Production">
+                        <div class="service-masonry-gradient"></div>
+                    </div>
+                    <div class="service-masonry-content">
+                        <span class="service-badge badge-video" data-en="Cinematic" data-ar="سينمائي">Cinematic</span>
+                        <h3 data-en="Video Production" data-ar="الإنتاج السينمائي">Video Production</h3>
+                        <p data-en="TVCs • Documentaries • Animation" data-ar="إعلانات • وثائقيات • رسوم متحركة">TVCs •
+                            Documentaries • Animation</p>
+                    </div>
+                </div>
+
+                <!-- Small Card - Drone -->
+                <div class="service-masonry-card card-small">
+                    <div class="service-masonry-image">
+                        <img src="./Images/drone-equipment.jpg" alt="Aerial Imaging">
+                        <div class="service-masonry-gradient"></div>
+                    </div>
+                    <div class="service-masonry-content">
+                        <h3 data-en="Aerial Imaging" data-ar="التصوير الجوي">Aerial Imaging</h3>
+                        <p data-en="Licensed Drone Operations" data-ar="عمليات درون مرخصة">Licensed Drone Operations</p>
+                    </div>
+                </div>
+
+                <!-- Medium Card - Events -->
+                <div class="service-masonry-card card-medium">
+                    <div class="service-masonry-image">
+                        <img src="./Images/event-management.jpg" alt="Event Management">
+                        <div class="service-masonry-gradient"></div>
+                    </div>
+                    <div class="service-masonry-content">
+                        <span class="service-badge badge-event" data-en="Live" data-ar="مباشر">Live</span>
+                        <h3 data-en="Event Management" data-ar="إدارة الفعاليات">Event Management</h3>
+                        <p data-en="Summits • Broadcasting • Production" data-ar="قمم • بث مباشر • إنتاج">Summits •
+                            Broadcasting • Production</p>
+                    </div>
+                </div>
+
+                <!-- Small Card - Consultancy -->
+                <div class="service-masonry-card card-small">
+                    <div class="service-masonry-image">
+                        <img src="./Images/media-consultancy.jpg" alt="Media Consultancy">
+                        <div class="service-masonry-gradient"></div>
+                    </div>
+                    <div class="service-masonry-content">
+                        <h3 data-en="Media Consultancy" data-ar="الاستشارات الإعلامية">Media Consultancy</h3>
+                        <p data-en="Strategy • Crisis Management" data-ar="استراتيجية • إدارة أزمات">Strategy • Crisis
+                            Management</p>
+                    </div>
+                </div>
+
+                <!-- Large Card - Equipment -->
+                <div class="service-masonry-card card-large card-dark">
+                    <div class="service-masonry-image">
+                        <img src="./Images/cinema-equipment.jpg" alt="Cinema Equipment">
+                        <div class="service-masonry-gradient"></div>
+                    </div>
+                    <div class="service-masonry-content">
+                        <span class="service-badge badge-tech" data-en="Pro Gear" data-ar="معدات احترافية">Pro
+                            Gear</span>
+                        <h3 data-en="Cinema-Grade Equipment" data-ar="معدات سينمائية">Cinema-Grade Equipment</h3>
+                        <p data-en="RED • ARRI • Sony • DJI • Professional Editing Suites"
+                            data-ar="RED • ARRI • Sony • DJI • وحدات مونتاج احترافية">RED • ARRI • Sony • DJI •
+                            Professional Editing Suites</p>
+                        <div class="service-stats">
+                            <span><strong>$2M+</strong> <small data-en="Equipment Value"
+                                    data-ar="قيمة المعدات">Equipment Value</small></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Capabilities Section -->
+        <section id="capabilities">
+            <div class="section-header">
+                <div class="section-label" data-en="Our Arsenal" data-ar="ترسانتنا">Our Arsenal</div>
+                <h2 class="section-title" data-en="Production Ecosystem" data-ar="منظومة الإنتاج">Production Ecosystem
+                </h2>
+                <p class="section-description" data-en="World-class equipment & expert team"
+                    data-ar="معدات عالمية وفريق خبراء">World-class equipment & expert team</p>
+            </div>
+
+            <div class="capabilities-visual-grid">
+                <!-- Cinema Equipment -->
+                <div class="capability-visual-card">
+                    <div class="capability-visual-image">
+                        <img src="./Images/cinema-equipment.jpg" alt="Cinema Cameras">
+                        <div class="capability-visual-overlay"></div>
+                    </div>
+                    <div class="capability-visual-content">
+                        <h4 data-en="Cinema Cameras" data-ar="كاميرات سينمائية">Cinema Cameras</h4>
+                        <p>RED • ARRI • Sony</p>
+                    </div>
+                </div>
+
+                <!-- Editing Suite -->
+                <div class="capability-visual-card">
+                    <div class="capability-visual-image">
+                        <img src="./Images/editing-suite.jpg" alt="Editing Suites">
+                        <div class="capability-visual-overlay"></div>
+                    </div>
+                    <div class="capability-visual-content">
+                        <h4 data-en="Editing Suites" data-ar="وحدات المونتاج">Editing Suites</h4>
+                        <p data-en="High-Speed Post Production" data-ar="إنتاج لاحق فائق السرعة">High-Speed Post
+                            Production</p>
+                    </div>
+                </div>
+
+                <!-- Expert Team -->
+                <div class="capability-visual-card">
+                    <div class="capability-visual-image">
+                        <img src="./Images/expert-team.jpg" alt="Expert Team">
+                        <div class="capability-visual-overlay"></div>
+                    </div>
+                    <div class="capability-visual-content">
+                        <h4 data-en="Expert Team" data-ar="فريق خبراء">Expert Team</h4>
+                        <p data-en="Directors • Strategists • Creatives" data-ar="مخرجون • استراتيجيون • مبدعون">
+                            Directors • Strategists • Creatives</p>
+                    </div>
+                </div>
+
+                <!-- Aerial Equipment -->
+                <div class="capability-visual-card">
+                    <div class="capability-visual-image">
+                        <img src="./Images/drone-equipment.jpg" alt="Drone Equipment">
+                        <div class="capability-visual-overlay"></div>
+                    </div>
+                    <div class="capability-visual-content">
+                        <h4 data-en="Aerial Equipment" data-ar="معدات جوية">Aerial Equipment</h4>
+                        <p data-en="Licensed Drone Operations" data-ar="عمليات درون مرخصة">Licensed Drone Operations</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <div class="section-header">
+                <div class="section-label" data-en="Our Work" data-ar="أعمالنا">Our Work</div>
+                <h2 class="section-title" data-en="Portfolio" data-ar="معرض الأعمال">Portfolio</h2>
+                <p class="section-description" data-en="A glimpse into our world-class productions"
+                    data-ar="نظرة على إنتاجاتنا العالمية">A glimpse into our world-class productions</p>
+            </div>
+
+            <div class="gallery-controls">
+                <button class="gallery-filter active" data-filter="all" data-en="All" data-ar="الكل">All</button>
+                <button class="gallery-filter" data-filter="photography" data-en="Photography"
+                    data-ar="تصوير">Photography</button>
+                <button class="gallery-filter" data-filter="video" data-en="Video" data-ar="فيديو">Video</button>
+                <button class="gallery-filter" data-filter="events" data-en="Events" data-ar="فعاليات">Events</button>
+            </div>
+
+            <div class="gallery-grid" id="galleryGrid"></div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="section-header">
+                <div class="section-label" data-en="Get in Touch" data-ar="تواصل معنا">Get in Touch</div>
+                <h2 class="section-title" data-en="Contact Us" data-ar="اتصل بنا">Contact Us</h2>
+                <p class="section-description" data-en="Ready to create something extraordinary?"
+                    data-ar="مستعد لإنشاء شيء استثنائي؟">Ready to create something extraordinary?</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                        </div>
+                        <div class="contact-text">
+                            <h4 data-en="Phone" data-ar="الهاتف">Phone</h4>
+                            <p>+20 111 5685 076</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </div>
+                        <div class="contact-text">
+                            <h4 data-en="Email" data-ar="البريد الإلكتروني">Email</h4>
+                            <p>hashem.abrahim@gmail.com</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="social-section">
+                    <h4 data-en="Follow Us" data-ar="تابعنا">Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" title="TikTok">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./Images/logo.png" alt="Pixel Gate" class="footer-logo-img">
+                    <span>PIXEL GATE</span>
+                </div>
+                <p class="footer-tagline" data-en="Visualizing Authority" data-ar="نجسد الهيبة">Visualizing Authority
+                </p>
+                <p class="footer-copyright">&copy; 2025 Pixel Gate. <span data-en="All rights reserved."
+                        data-ar="جميع الحقوق محفوظة.">All rights reserved.</span></p>
+            </div>
+        </footer>
+        <!-- Dynamic Bottom Logo (transforms to arrow on scroll) -->
+        <div class="hero-bottom-logo dynamic-logo" id="dynamicLogo">
+            <img src="./Images/logo-icon.png" alt="Pixel Gate" class="logo-icon">
+            <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="18 15 12 9 6 15" />
+            </svg>
+        </div>
+    </div>
+
+
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-close" id="lightboxClose">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+        </div>
+        <div class="lightbox-prev" id="lightboxPrev">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6" />
+            </svg>
+        </div>
+        <div class="lightbox-next" id="lightboxNext">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6" />
+            </svg>
+        </div>
+        <div class="lightbox-content" id="lightboxContent"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
